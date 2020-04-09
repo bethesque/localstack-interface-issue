@@ -1,5 +1,6 @@
 #/bin/bash
 
+export AWS_REGION=ap-southeast-2
 echo "Getting parameter foo"
 awslocal ssm get-parameter --name "foo"
 
